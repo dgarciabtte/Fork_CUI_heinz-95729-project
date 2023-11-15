@@ -1,0 +1,10 @@
+{  
+    "compilerOptions": {    
+        "lib": ["dom", "dom.iterable", "esnext"],    
+        "target": "ESNext",    
+        "types": ["vite/client", "node"],
+        "typeRoots": ["./node_modules/@types/", "./types"],
+        "moduleResolution": "node",
+        "isolatedModules": true,
+    },
+}

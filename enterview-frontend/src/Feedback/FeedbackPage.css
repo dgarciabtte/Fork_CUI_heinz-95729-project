@@ -1,0 +1,214 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(circle, #E4E7F4, #FBFBFD);
+}
+
+.content-section {
+  display: flex;
+  height: calc(100vh - 100px); /* Set a height. Adjust as needed */
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+.left-section-1 {
+  flex: 0.5;
+  height: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  overflow: auto;
+}
+
+.right-section-1 {
+  flex: 3;
+  padding: 20px;
+  height: 100%;
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  overflow: auto;
+}
+
+.menu-button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.column-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.question-button {
+  border: none;
+  border-radius: 10px;
+  width: 200px; /* Set a fixed width */
+  white-space: normal; /* Allow text to wrap onto new lines */
+  padding: 10px; /* Provide some padding around the text */
+  margin-bottom: 12px;
+  background-color: #FFFFFF;
+  text-align: left;
+  flex-basis: calc(33.33% - 16px);
+  padding-left: 10px;
+}
+
+.title-wrapper {
+  padding: 0 10px; /* Same horizontal padding as the column */
+}
+
+.rounded-button {
+  border: none;
+  border-radius: 10px; /* Adjust as necessary for desired roundness */
+  padding: 10px 20px; /* Adjust padding as needed */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 200px;
+}
+
+.new-rounded-button {
+  border: none;
+  border-radius: 10px; /* Adjust as necessary for desired roundness */
+  padding: 10px 20px; /* Adjust padding as needed */
+  cursor: pointer;
+  background-color: #557AFF;
+  color: white;
+  width: 200px;
+}
+
+.main-container {
+  background-color: transparent;
+  border-radius: 10px;
+  width: 95%;
+  height: 86%;
+  top: 101px;
+  left: 303px;
+}
+
+.qs1 {
+  font-family: Work Sans;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.sub-left-section {
+  flex: 0.5;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.sub-right-section {
+  flex: 3;
+  height: 100%;
+  padding: 20px;
+  margin-left: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.sub-content-section {
+  display: flex;
+  bottom: 5px;
+  height: 74%;
+  margin: 15px;
+}
+
+.sub-sub-top-section {
+  display: flex;
+  height: 15%;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.5);;
+  overflow: auto;
+}
+
+.sub-sub-bottom-section {
+  flex: 3;
+  height: 45%;
+  padding: 50px;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.5);;
+  overflow: auto;
+}
+
+.left-top-text {
+  font-family: Work Sans;
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: center;
+  margin-top: -40px;
+  margin-left: -10px;
+}
+
+.right-top-text {
+  font-family: Work Sans;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: left;
+  margin-top: -40px;
+  margin-bottom: 20px;
+}
+
+.left-bottom-text {
+  font-family: Work Sans;
+  position: relative;
+  top: -115px;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: -10px;
+}
+
+.right-bottom-text {
+  font-family: Work Sans;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+}
+
+.button-type {
+  position: relative;
+  left: 10px;
+  top: -20px;
+  margin-right:13px;
+  border-radius: 10px;
+  height: 33px;
+  border: None;
+  cursor: pointer;
+}
+
+.button-text {
+  font-family: Work Sans;
+  display: flex;  
+  margin-left: 10%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+}

@@ -1,0 +1,82 @@
+.Dashboard {
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(circle, #E4E7F4, #FBFBFD);
+}
+
+.content-section {
+  display: flex;
+  height: calc(100vh - 100px); /* Set a height. Adjust as needed */
+  margin: 20px;
+  box-sizing: border-box;
+}
+
+.left-section {
+  flex: 0.5;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  overflow: auto;
+}
+
+.right-section {
+  flex: 3;
+  padding: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.smaller-heading {
+  font-size: 1.2rem; /* Adjust as needed */
+  margin-bottom: 1rem; /* You might want to remove margin between h1 and QuestionBar */
+}
+
+.menu-button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.column-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.new-rounded-button {
+  border: none;
+  border-radius: 10px; /* Adjust as necessary for desired roundness */
+  padding: 10px 20px; /* Adjust padding as needed */
+  cursor: pointer;
+  background-color: #557AFF;
+  color: white;
+  width: 200px;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.title-wrapper {
+  padding: 0 10px; /* Same horizontal padding as the column */
+}
+
+.rounded-button {
+  border: none;
+  border-radius: 10px; /* Adjust as necessary for desired roundness */
+  padding: 10px 20px; /* Adjust padding as needed */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 200px;
+}
+
+.rounded-button:hover {
+background-color: #557AFF; 
+}

@@ -1,0 +1,108 @@
+.question-bar {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem; 
+  padding-right: 0.5rem;
+  margin-bottom: 1rem; 
+  font-size: 80%; /* Reduced font-size by half */
+  width: 98%; /* Will take the full width of the parent container */
+}
+
+.field {
+  flex: 1; 
+
+  margin: 0 1rem; 
+}
+
+.right-fields {
+  display: flex;
+  flex: 1;
+  margin-left: 4rem;
+}
+
+/* Ensure equal spacing between fields inside right-fields */
+.right-fields .field:not(:last-child) {
+  margin-right: 5rem;
+}
+
+/* Make sure the last field in right-fields, which is Time, does not have a margin to its right */
+.right-fields .field:last-child {
+  margin-right: 0;
+}
+
+.question-type-behavioral {
+  white-space: nowrap; 
+  margin-top: 5px;         /* Space between the question text and the type */
+  background-color: rgba(93, 202, 126, 0.1);
+  color: white;            /* White text */
+  padding: 3px 6px;        /* Some padding for the type label */
+  border-radius: 4px;      /* Rounded corners for the type label */
+  align-self: flex-start;  /* Align to the start of the flex container */
+  color: #5dca7e
+}
+
+.question-type-technical {
+  white-space: nowrap; 
+  margin-top: 5px;         /* Space between the question text and the type */
+  background-color: rgba(118, 26, 210, 0.1);;
+  color: white;            /* White text */
+  padding: 3px 6px;        /* Some padding for the type label */
+  border-radius: 4px;      /* Rounded corners for the type label */
+  align-self: flex-start;  /* Align to the start of the flex container */
+  color: #761ad2
+}
+
+.question-type-product-design {
+  white-space: nowrap; 
+  margin-top: 5px;         /* Space between the question text and the type */
+  background-color: rgba(118, 26, 210, 0.1);;
+  color: white;            /* White text */
+  padding: 3px 6px;        /* Some padding for the type label */
+  border-radius: 4px;      /* Rounded corners for the type label */
+  align-self: flex-start;  /* Align to the start of the flex container */
+  color: #dfc519
+}
+
+.question-type-product-strategy {
+  white-space: nowrap; 
+  margin-top: 5px;         /* Space between the question text and the type */
+  background-color: rgba(118, 26, 210, 0.1);;
+  color: white;            /* White text */
+  padding: 3px 6px;        /* Some padding for the type label */
+  border-radius: 4px;      /* Rounded corners for the type label */
+  align-self: flex-start;  /* Align to the start of the flex container */
+  color: #2e19f0
+}
+
+.question-type-analytical {
+  margin-top: 5px;         /* Space between the question text and the type */
+  background-color: rgba(118, 26, 210, 0.1);;
+  color: white;            /* White text */
+  padding: 3px 6px;        /* Some padding for the type label */
+  border-radius: 4px;      /* Rounded corners for the type label */
+  align-self: flex-start;  /* Align to the start of the flex container */
+  color: #de751e
+}
+
+.question-type-default {
+  white-space: nowrap; 
+  margin-top: 5px;         /* Space between the question text and the type */
+  background-color: rgba(118, 26, 210, 0.1);;
+  color: white;            /* White text */
+  padding: 3px 6px;        /* Some padding for the type label */
+  border-radius: 4px;      /* Rounded corners for the type label */
+  align-self: flex-start;  /* Align to the start of the flex container */
+  color: #d81919
+}
+
+
+.question-button-1 {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border: none;
+}

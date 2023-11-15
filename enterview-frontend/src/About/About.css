@@ -1,0 +1,29 @@
+/* About.css */
+.about-container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 100px; 
+    height: auto;
+  }
+  
+  .get-started-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    cursor: pointer
+  }
+  

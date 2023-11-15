@@ -1,0 +1,50 @@
+.spinner-with-button {
+    display: flex;
+    align-items: center;
+}
+
+.tmp-field {
+    flex: 1; 
+  
+    margin: 0 -0.1rem; 
+}
+
+.tmp-question-bar {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 1rem; 
+    padding-right: 0.5rem;
+    margin-bottom: 1rem; 
+    font-size: 80%; /* Reduced font-size by half */
+    width: 98%; /* Will take the full width of the parent container */
+    gap: 30.3rem;
+  }
+  
+
+.tmp-right-fields {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+
+
+.tmp-company-field {
+    flex: 1; 
+    margin-right: 2.7rem;
+}
+
+.tmp-type-field {
+    flex: 1; 
+  
+    margin: 0 5rem; 
+}
+
+
+.tmp-field {
+    flex: 1; 
+  
+    margin: 0 4rem; 
+}

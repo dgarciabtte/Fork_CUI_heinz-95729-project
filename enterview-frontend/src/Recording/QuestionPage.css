@@ -1,0 +1,217 @@
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background {
+  margin: 0;
+  padding: 0;
+  background-color: color-mix(in lch, #FBFBFD, #E4E7F4);
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  overflow: auto;
+  position: absolute;
+}
+
+.box {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  overflow: auto;
+  width: 67vw;
+  height: 165px;
+  margin-top: 100px;
+  margin-left: 0;
+  position: absolute;
+}
+
+.back-container {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  width: 67vw; /* Set the maximum width of the container */
+  height: 70px;
+  top: 10%;
+  padding: 10px;
+}
+
+.qs-container {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to new lines */
+  text-align: left;
+  width: 67vw;
+  max-height: 24vh;
+  top: calc(10% + 100px);
+  overflow: auto;
+}
+
+.qs {
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 56px;
+  letter-spacing: 0em;
+  margin-top: 0px;
+  color: #161D3E;
+}
+
+.done-button {
+  background-color: white;
+  display: flex;
+  position: absolute;
+  width: 111px;
+  height: 56px;
+  border-radius: 15px;
+  gap: 10px;
+  top: 75%;
+  right: 16.5vw;
+  color:#161D3E4D;
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: None;
+  color: white;
+  background-color: #557AFF;
+}
+
+.audio-button {
+  background-color: white;
+  display: flex;
+  position: absolute;
+  width: 222px;
+  height: 56px;
+  border-radius: 15px;
+  gap: 10px;
+  top: 75%;
+  right: 26.5vw;
+  color:#161D3E4D;
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: None;
+  color: white;
+  background-color: #557AFF;
+}
+
+.recording-circle {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%; /* Makes it a circle */
+  background-color: #FFFFFF; /* White background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px; /* Creates space for the 'border' */
+  
+  /* Add soft white glow and a subtle drop shadow */
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.6), 0 4px 25px rgba(0, 0, 0, 0.2); 
+}
+
+/* 
+.recording {
+  background-color: white;
+  position: absolute;
+  width: 1128px;
+  height: 90px;
+  top: 478px;
+  left: 300px;
+  border-radius: 15px;
+  cursor: pointer;
+  border: white;
+} */
+
+/*
+.unclicked-bottom {
+  background-color: white;
+  position: absolute;
+  width: 1128px;
+  height: 90px;
+  top: 588px;
+  left: 300px;
+  border-radius: 15px;
+  cursor: pointer;
+  border: white;
+}
+
+.clicked-top {
+  position: absolute;
+  width: 1128px;
+  height: 90px;
+  top: 478px;
+  left: 300px;
+  border-radius: 10px;
+  border: 2px solid rgba(22, 29, 62, 0.5);
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.clicked-bottom {
+  position: absolute;
+  width: 1128px;
+  height: 90px;
+  top: 588px;
+  left: 300px;
+  border-radius: 10px;
+  border: 2px solid rgba(22, 29, 62, 0.5);
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+} */
+
+.mid-text {
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  color: #161D3E;
+  margin-top: 10px;
+}
+
+.button-text {
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* .clicked-text {
+  position: absolute;
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(22, 29, 62, 0.5);
+} */
