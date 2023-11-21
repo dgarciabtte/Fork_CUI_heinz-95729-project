@@ -289,4 +289,4 @@ type Seed = {
 }
 ```
 
-Note that in `api/src/domains/users/src/loaders/seeds/seeds.ts`, the data is mapped to key-value-pairs with two different keys: the user id, and their email address. The userId key points at the entire record. The email key points at the userId, which can then be used to look up the record. This is called a binary lookup: we intentionally index the data by any key we expect to retrieve it with. To read more about key-value-storage patterns, check out the Data Design Patterns reading in the #readings channel.
+Note that in `api/src/domains/users/src/loaders/seeds/seeds.ts`, the data is mapped to key-value-pairs with two different keys: the user id, and their email address. The userId key points at the entire record. The email key points at the userId, which can then be used to look up the record. This is called a binary lookup: we intentionally index the data by any key we expect to retrieve it with. To read more about key-value-storage patterns, check out the Data Design Patterns reading in the #readings channel. 123
